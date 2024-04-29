@@ -18,7 +18,7 @@ Para el desarrollo del bot, en caso de realizar algún fork o algo parecido, deb
 ## Instalacion y Configuracion:
 1. Instalar las dependencias
 ```bash
-pip3 install -r requeriments.txt
+pip3 install -r requirements.txt
 ```
 2. Configurar el token del bot Resources>credentials.py
 
