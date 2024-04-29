@@ -1,4 +1,6 @@
-
+from telegram.helpers import escape_markdown
+from Resources.DataBase import saludos
+from random import choice
 
 def definiciones(palabra):
     """ Definiciones de palabras """
@@ -18,7 +20,6 @@ def definiciones(palabra):
         except: 
             return "No se ha encontrado esta definicion..."
 
-def saludo():
-    from Resources.DataBase import saludo
-    from random import choice
-    return choice(saludo)
+def saludo(user):
+    saludo = choice(saludos)
+    return saludo.format(user)

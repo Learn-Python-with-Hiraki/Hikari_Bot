@@ -1,8 +1,4 @@
 */__pycache__
 */__pycache__/
 __pycache__/
-<<<<<<< HEAD
-/Resources/credentials.py
-.token
-=======
->>>>>>> 1d92f64bcbdc996dd22f67b09cda84521d1a972d
+venv

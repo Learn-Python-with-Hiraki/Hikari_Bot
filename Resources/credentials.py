@@ -1,1 +1,3 @@
-tokentelegrambot = input("Insert your token: ")
+import os
+
+tokentelegrambot = os.getenv('TOKEN')
